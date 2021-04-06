@@ -1,0 +1,78 @@
+.cardcontainer {
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+  background-size: auto 85%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  width: 300px;
+  max-width: 300px;
+  height: 400px;
+  max-height: 570px;
+  will-change: transform;
+  border: rgba(0, 0, 0, 0.10) 1px solid;
+  border-radius: 10px;
+}
+@media screen and (max-width: 320px) {
+  .cardcontainer {
+  width: 250px;
+  max-width: 250px;
+  height: 350px;
+  max-height: 520px;
+  }
+}
+
+.slider-list{
+  cursor: default !important;
+}
+
+.profilePicture {
+  padding: 1em;
+  height: 280px;
+  width: 100%;
+  border-radius: 2em;
+  object-fit: cover;
+}
+
+button[aria-label="previous"],
+button[aria-label="next"] {
+  display: none;
+  background: #f8b7cc !important;
+  color: black !important;
+}
+
+.cardName {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.cardName:nth-of-type(2) {
+  opacity: 0.7;
+  font-size: 1.35rem;
+}
+
+.cardDescription {
+  margin-top: -15px;
+  margin-left: 2px;
+  color: lightgray;
+}
+.cardDescription:last-of-type {
+  color: darkgray;
+}
+
+.card > div {
+  height: 280px !important;
+}
+
+.card {
+  height: 500px !important;
+}
+
+.slider-control-bottomcenter {
+  bottom: -15px !important;
+}
+
+.slider-control-bottomcenter > ul > li > button {
+  color: salmon !important;
+}
