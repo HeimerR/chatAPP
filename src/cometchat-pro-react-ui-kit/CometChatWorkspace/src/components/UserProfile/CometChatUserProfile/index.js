@@ -102,7 +102,7 @@ class CometChatUserProfile extends React.Component {
               <div css={optionNameStyle()} className="option_name">{Translator.translate("REPORT_PROBLEM", this.props.lang)}</div>
             </div>
             <div css={optionStyle()} className="option option-report">
-              <div css={optionNameStyle()} className="option_name" style={{ color: "red", cursor: "pointer" }} onClick={this.props.onLogout}>Logout</div>
+              <div css={optionNameStyle()} className="option_name" onClick={this.props.onLogout}>Logout</div>
             </div>
           </div>
         </div>
